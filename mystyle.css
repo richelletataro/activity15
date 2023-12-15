@@ -1,0 +1,67 @@
+
+*{  
+    margin:auto;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+section{
+    width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: 10px solid violet;
+    box-shadow: 5px 5px 8px violet;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 6px;
+    color: black;
+    text-shadow: 2px 2px grey;
+
+}
+.main-user{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.richelle{
+    width: 250px;
+    padding-bottom: 15px;
+    color: black;
+    font-size: 20px;
+}
+.richelle input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid black;
+    padding:10px;
+
+}
+.gen-title{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.gender{
+    margin: 15px;
+    color: black;
+}
+.Register input{ 
+    display: block;
+    width: 600px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: black;
+}
